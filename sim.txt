@@ -1,0 +1,7 @@
+vsim -gui work.dds_tb(test)
+add wave -position insertpoint  \
+sim:/dds_tb/rst \
+sim:/dds_tb/clk \
+sim:/dds_tb/df \
+sim:/dds_tb/wave
+run 10 ms
