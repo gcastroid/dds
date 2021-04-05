@@ -4,8 +4,8 @@ use ieee.numeric_std.all;
 
 entity rom is
    port(
-	i_addr: in std_logic_vector(9 downto 0);
-	o_data: out std_logic_vector(7 downto 0));
+   i_addr: in std_logic_vector(9 downto 0);
+   o_data: out std_logic_vector(7 downto 0));
 end entity;
 
 architecture behave of rom is 
